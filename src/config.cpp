@@ -1,5 +1,7 @@
 #include "lib/config.h"
 #include <Arduino.h>
+
+// Funkcja inicjalizująca dla określenia roli danego pinu
 void initConfiguration(){
 
     pinMode(INCREMENTOR,INPUT_PULLUP);
