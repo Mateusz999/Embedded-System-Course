@@ -9,11 +9,11 @@ A collection of tasks and experiments from the **Embedded Systems** course, usin
 
 This repository showcases practical exercises combining microcontroller programming and Linux-based embedded computing. Topics include:
 
-- Sensor integration and data logging  
+- Sensor integration
 - GPIO control and automation  
 - Communication protocols (I2C, SPI, UART)  
 - Networking and remote access  
-- Python and C/C++ implementations  
+- C/C++ implementations  
 
 ## 📦 Hardware Used
 
