@@ -2,6 +2,7 @@ import dht11
 import RPi.GPIO as GPIO
 import time
 
+
 # Ustawienie GPIO
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
