@@ -1,6 +1,5 @@
 #pragma once
 
-
 // Konfiguracja pod wyświetlacz OLED
 
 #define OLED_DATA_PIN 21

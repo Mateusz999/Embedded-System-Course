@@ -17,11 +17,14 @@ void initOLED(){
 /*
 
     Funkcje wyświetlająca podane parametry na wyświetlaczu 
-    Dwa parametry String wyświetlane w sposób String(nazwa_zmienne,2) oznacza, że wyświelane są jako ciąg bitów
+    Dwa parametry String wyświetlane w sposób String(nazwa_zmienne,2) 
+    oznacza, że wyświelane są jako ciąg bitów
 
 */ 
 
-void updateDisplay(float temperature, int inkrementor, String binary_representation, String grey_representations,float humidity)
+void updateDisplay( float temperature, int inkrementor, 
+                    String binary_representation, String grey_representations,
+                    float humidity)
 {
     display.clearDisplay();
     display.setTextColor(WHITE);
